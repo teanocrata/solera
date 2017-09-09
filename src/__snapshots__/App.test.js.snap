@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div>
+  <nav
+    className="navbar navbar-inverse navbar-fixed-top"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="navbar-header"
+        >
+          <a
+            className="navbar-brand"
+            href="/"
+          >
+            Solera
+          </a>
+          <button
+            className="navbar-toggle collapsed"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              className="sr-only"
+            >
+              Toggle navigation
+            </span>
+            <span
+              className="icon-bar"
+            />
+            <span
+              className="icon-bar"
+            />
+            <span
+              className="icon-bar"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="jumbotron"
+  >
+    <div
+      className="container"
+    >
+      <h1>
+        Welcome to React
+      </h1>
+      <p>
+        <a
+          className="btn btn-lg btn-success"
+          href="http://react-bootstrap.github.io/components.html"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          target="_blank"
+        >
+          View React Bootstrap Docs
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;
