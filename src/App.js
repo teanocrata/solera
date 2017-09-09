@@ -1,21 +1,13 @@
 import React, { Component } from "react";
-import { Grid, Navbar, Jumbotron, Button } from "react-bootstrap";
+import { Grid, Jumbotron, Button } from "react-bootstrap";
 import "./App.css";
+import SNavbar from "./navbar/SNavbar.js";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Navbar inverse fixedTop>
-          <Grid>
-            <Navbar.Header>
-              <Navbar.Brand>
-                <a href="/">Solera</a>
-              </Navbar.Brand>
-              <Navbar.Toggle />
-            </Navbar.Header>
-          </Grid>
-        </Navbar>
+        <SNavbar />
         <Jumbotron>
           <Grid>
             <h1>Welcome to React</h1>

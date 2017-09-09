@@ -1,0 +1,28 @@
+.Nav-logo {
+  height: 100%;
+}
+
+.navbar-header a {
+  height: 100%;
+}
+
+.navbar li{
+  text-transform: uppercase;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-inverse {
+  background-image: none;
+  background-color: lightgreen;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: forestgreen;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: none;
+}
