@@ -1,0 +1,40 @@
+.react-parallax-bgimage {
+  opacity: 0.5;
+}
+
+.img-circle {
+  width: 90%;
+}
+
+.container {
+  margin: 0px;
+  width: 100%;
+}
+
+.col-md-4 {
+  text-align: center;
+  /*transform-origin: center;
+  -ms-transform: translate(0px, -100px);
+  -webkit-transform: translate(0px, -100px);
+  transform: translate(0px, -100px);*/
+}
+
+
+
+.btn-default {
+  background-color: forestgreen;
+  background-image: none;
+  border-color: forestgreen;
+  background-repeat: none;
+  color: lightgreen;
+  text-shadow: none;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: lightgreen;
+  border-color: lightgreen;
+  color: forestgreen;
+  background-position: 0 -15px;
+}

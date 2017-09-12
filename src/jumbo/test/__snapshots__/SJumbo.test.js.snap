@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SJumbo renders correctly 1`] = `
+<div
+  className="text-center jumbotron"
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "height": undefined,
+    }
+  }
+>
+  <div>
+    <h1>
+      Visitas guiadas
+    </h1>
+    <p>
+      <button
+        className="btn btn-default"
+        disabled={false}
+        type="button"
+      >
+        Ven a conocernos
+      </button>
+    </p>
+  </div>
+</div>
+`;

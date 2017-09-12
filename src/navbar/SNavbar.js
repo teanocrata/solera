@@ -6,7 +6,7 @@ import "./SNavbar.css";
 class SNavbar extends Component {
   render() {
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar inverse collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="/">

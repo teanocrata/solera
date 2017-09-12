@@ -3,7 +3,7 @@
 exports[`App renders correctly 1`] = `
 <div>
   <nav
-    className="navbar navbar-inverse"
+    className="navbar navbar-inverse navbar-fixed-top"
   >
     <div
       className="container"
@@ -165,26 +165,86 @@ exports[`App renders correctly 1`] = `
       </div>
     </div>
   </nav>
-  <div
-    className="jumbotron"
-  >
+  <div>
     <div
-      className="container"
+      className="text-center jumbotron"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "height": undefined,
+        }
+      }
     >
-      <h1>
-        Welcome to React
-      </h1>
-      <p>
-        <a
-          className="btn btn-lg btn-success"
-          href="http://react-bootstrap.github.io/components.html"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          target="_blank"
+      <div>
+        <h1>
+          Visitas guiadas
+        </h1>
+        <p>
+          <button
+            className="btn btn-default"
+            disabled={false}
+            type="button"
+          >
+            Ven a conocernos
+          </button>
+        </p>
+      </div>
+    </div>
+    <br />
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="show-grid row"
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <div
+          className="slideanim col-md-4"
         >
-          View React Bootstrap Docs
-        </a>
-      </p>
+          <img
+            className="img-circle"
+            src="pony_girls_square.jpg"
+          />
+          <h3>
+            Da de comer a los ponys
+          </h3>
+          <p>
+            Los caballos y los ponys son animales muy sociables, detectan nuestras emociones y son muy curiosos, además ¡les encantan las frutisinas!
+          </p>
+        </div>
+        <div
+          className="slideanim col-md-4"
+        >
+          <img
+            className="img-circle"
+            src="farmer_square.jpg"
+          />
+          <h3>
+            Conoce nuestro día a día
+          </h3>
+          <p>
+            Una escuela de equitación tiene muchas actividades, desde hacer las camas, la comida o salir a jugar ¡igual que en casa!
+          </p>
+        </div>
+        <div
+          className="slideanim col-md-4"
+        >
+          <img
+            className="img-circle"
+            src="horse_training_square.jpg"
+          />
+          <h3>
+            Monta en uno de nuestros ponys
+          </h3>
+          <p>
+            La actividad estrella de nuestra visita, descubre la sensación de conectar con un pony, verás como te conoce, te escucha, y disfrutaréis juntos.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
