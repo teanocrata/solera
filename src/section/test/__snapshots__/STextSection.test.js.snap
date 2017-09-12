@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`STextSection renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="show-grid row"
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  >
+    <div
+      className="slideanim col-md-12"
+    >
+      <h2>
+        Bienvenidos
+      </h2>
+      <br />
+      <p>
+        Visita nuestra escuela y disfruta de una agradable sensación de calma y tranquilidad en el campo.
+      </p>
+      <p>
+        Verás cómo viven nuestros caballos, conocerás los diferentes trabajos que hacemos con ellos, las distintas clases de domas y por qué nosotros optamos por la doma natural y muchas más curiosidades.
+      </p>
+      <p>
+        <small>
+          ¡Y podrás probar lo que significa conectar con un animal!
+        </small>
+      </p>
+    </div>
+  </div>
+</div>
+`;

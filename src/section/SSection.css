@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h3 {
+  text-transform: uppercase;
+  color: forestgreen;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-size: 20px;
+}
+
+.img-circle {
+  max-width: 60%;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  p {
+    font-size: 14px;
+  }
+}
