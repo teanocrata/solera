@@ -1,0 +1,18 @@
+.carousel-inner div {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-inner img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    color: forestgreen;
+}
+
+.carousel-indicators li.active{
+  background-color: forestgreen;
+}
