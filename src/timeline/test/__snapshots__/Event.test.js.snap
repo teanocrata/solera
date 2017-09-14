@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event renders correctly 1`] = `
+<div
+  icon={undefined}
+  style={
+    Object {
+      "background": "lightgreen",
+    }
+  }
+>
+  <h1 />
+  <img
+    alt={undefined}
+    src={undefined}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <p />
+</div>
+`;

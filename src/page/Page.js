@@ -4,6 +4,7 @@ import SSection from "../section/SSection";
 import STextSection from "../section/STextSection";
 import SCarouselSection from "../section/SCarouselSection";
 import SJumbo from "../jumbo/SJumbo";
+import STimeline from "../timeline/STimeline";
 import "./Page.css";
 
 class Page extends Component {
@@ -15,6 +16,7 @@ class Page extends Component {
         <SSection />
         <STextSection />
         <SCarouselSection />
+        <STimeline />
       </div>
     );
   }
