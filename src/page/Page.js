@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollUpButton from "react-scroll-up-button";
 
 import SSection from "../section/SSection";
 import STextSection from "../section/STextSection";
@@ -17,6 +18,7 @@ class Page extends Component {
         <STextSection />
         <SCarouselSection />
         <STimeline />
+        <ScrollUpButton />
       </div>
     );
   }
