@@ -43,6 +43,11 @@ exports[`SCarouselSection renders correctly 1`] = `
         <img
           className="img-circle"
           src="cheyenne_square.jpg"
+          style={
+            Object {
+              "box-shadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            }
+          }
         />
       </div>
       <div
@@ -71,6 +76,11 @@ exports[`SCarouselSection renders correctly 1`] = `
         <img
           className="img-circle"
           src="pixie_square.jpg"
+          style={
+            Object {
+              "box-shadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            }
+          }
         />
       </div>
       <div
@@ -99,6 +109,11 @@ exports[`SCarouselSection renders correctly 1`] = `
         <img
           className="img-circle"
           src="campera_square.jpg"
+          style={
+            Object {
+              "box-shadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            }
+          }
         />
       </div>
       <div

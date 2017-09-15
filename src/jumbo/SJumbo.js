@@ -4,18 +4,31 @@ import "./SJumbo.css";
 
 class SJumbo extends Component {
   render() {
+    const style = {
+      jumbo: {
+        backgroundColor: "transparent",
+        height: this.props.heightPercentage
+      },
+      button: {
+        backgroundColor: "lightgreen",
+        color: "forestgreen",
+        border: "none",
+        boxShadow:
+          "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+        margin: "25% 0 25% 0",
+        textTransform: "uppercase",
+        fontWeight: "bold",
+        fontSize: "35px"
+      }
+    };
     return (
-      <Jumbotron
-        className="text-center"
-        style={{
-          backgroundColor: "transparent",
-          height: this.props.heightPercentage
-        }}
-      >
+      <Jumbotron className="text-center" style={style.jumbo}>
         <div>
           <h1>Visitas guiadas</h1>
           <p>
-            <Button>Ven a conocernos</Button>
+            <Button style={style.button} bsSize="large">
+              Ven a conocernos
+            </Button>
           </p>
         </div>
       </Jumbotron>

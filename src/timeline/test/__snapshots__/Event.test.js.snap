@@ -9,12 +9,25 @@ exports[`Event renders correctly 1`] = `
     }
   }
 >
-  <h1 />
+  <h1
+    style={
+      Object {
+        "color": "forestgreen",
+        "fontFamily": "Shadows Into Light",
+        "textAlign": "left",
+        "textTransform": "uppercase",
+      }
+    }
+  />
   <img
     alt={undefined}
     src={undefined}
     style={
       Object {
+        "marginBottom": "20px",
+        "marginTop": "20px",
+        "outline": "1px dashed white",
+        "outlineOffset": "-8px",
         "width": "100%",
       }
     }

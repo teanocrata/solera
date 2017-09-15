@@ -18,6 +18,11 @@ exports[`SSection renders correctly 1`] = `
       <img
         className="img-circle"
         src="pony_girls_square.jpg"
+        style={
+          Object {
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+          }
+        }
       />
       <h3>
         Da de comer a los ponys
@@ -32,6 +37,11 @@ exports[`SSection renders correctly 1`] = `
       <img
         className="img-circle"
         src="farmer_square.jpg"
+        style={
+          Object {
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+          }
+        }
       />
       <h3>
         Conoce nuestro día a día
@@ -46,6 +56,11 @@ exports[`SSection renders correctly 1`] = `
       <img
         className="img-circle"
         src="horse_training_square.jpg"
+        style={
+          Object {
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+          }
+        }
       />
       <h3>
         Monta en uno de nuestros ponys

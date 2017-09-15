@@ -7,6 +7,11 @@ import horseTraining from "./horse_training_square.jpg";
 
 class SSection extends Component {
   render() {
+    const style = {
+      image: {
+        boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"
+      }
+    };
     return (
       <Grid fluid>
         <Row
@@ -16,7 +21,7 @@ class SSection extends Component {
           }}
         >
           <Col md={4} className="slideanim">
-            <Image src={ponyGirls} circle />
+            <Image style={style.image} src={ponyGirls} circle />
             <h3>Da de comer a los ponys</h3>
             <p>
               Los caballos y los ponys son animales muy sociables, detectan
@@ -25,7 +30,7 @@ class SSection extends Component {
             </p>
           </Col>
           <Col md={4} className="slideanim">
-            <Image src={farmer} circle />
+            <Image style={style.image} src={farmer} circle />
             <h3>Conoce nuestro día a día</h3>
             <p>
               Una escuela de equitación tiene muchas actividades, desde hacer
@@ -33,7 +38,7 @@ class SSection extends Component {
             </p>
           </Col>
           <Col md={4} className="slideanim">
-            <Image src={horseTraining} circle />
+            <Image style={style.image} src={horseTraining} circle />
             <h3>Monta en uno de nuestros ponys</h3>
             <p>
               La actividad estrella de nuestra visita, descubre la sensación de

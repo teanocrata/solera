@@ -8,6 +8,12 @@ import "./SCarouselSection.css";
 
 class SCarouselSection extends Component {
   render() {
+    const style = {
+      image: {
+        "box-shadow":
+          "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"
+      }
+    };
     return (
       <Carousel>
         <Carousel.Item>
@@ -18,7 +24,7 @@ class SCarouselSection extends Component {
               backgroundColor: "transparent"
             }}
           >
-            <Image src={cheyenne} circle />
+            <Image style={style.image} src={cheyenne} circle />
           </div>
           <Carousel.Caption>
             <h3>Cheyenne</h3>
@@ -37,7 +43,7 @@ class SCarouselSection extends Component {
               backgroundColor: "transparent"
             }}
           >
-            <Image src={pixie} circle />
+            <Image style={style.image} src={pixie} circle />
           </div>
           <Carousel.Caption>
             <h3>Pixie</h3>
@@ -56,7 +62,7 @@ class SCarouselSection extends Component {
               backgroundColor: "transparent"
             }}
           >
-            <Image src={campera} circle />
+            <Image style={style.image} src={campera} circle />
           </div>
           <Carousel.Caption>
             <h3>Campera</h3>

@@ -16,8 +16,20 @@ exports[`SJumbo renders correctly 1`] = `
     </h1>
     <p>
       <button
-        className="btn btn-default"
+        className="btn btn-lg btn-default"
         disabled={false}
+        style={
+          Object {
+            "backgroundColor": "lightgreen",
+            "border": "none",
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            "color": "forestgreen",
+            "fontSize": "35px",
+            "fontWeight": "bold",
+            "margin": "25% 0 25% 0",
+            "textTransform": "uppercase",
+          }
+        }
         type="button"
       >
         Ven a conocernos
