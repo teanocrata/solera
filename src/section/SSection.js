@@ -19,8 +19,12 @@ class SSection extends Component {
             }}
           >
             {this.props.activities.map(activity => (
-              <Col md={4} className="slideanim">
-                <Image style={style.image} src={activity.image.src} circle />
+              <Col key={activity.title} md={4} className="slideanim">
+                {activity.image ? (
+                  <Image style={style.image} src={activity.image.src} circle />
+                ) : (
+                  ""
+                )}
                 <h3>{activity.title}</h3>
                 <p>{activity.text}</p>
               </Col>

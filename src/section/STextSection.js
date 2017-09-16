@@ -13,17 +13,21 @@ class STextSection extends Component {
           }}
         >
           <Col md={12} className="slideanim">
-            <h2>{this.props.text.title}</h2>
+            <h2>{this.props.text ? this.props.text.title : ""}</h2>
             <br />
-            {this.props.text.pharagraphs.map(
-              pharagraph =>
-                pharagraph.size === "small" ? (
-                  <p>
-                    <small>{pharagraph.text}</small>
-                  </p>
-                ) : (
-                  <p>{pharagraph.text}</p>
-                )
+            {this.props.text && this.props.text.pharagraphs ? (
+              this.props.text.pharagraphs.map(
+                (pharagraph, index) =>
+                  pharagraph.size === "small" ? (
+                    <p key={index}>
+                      <small>{pharagraph.text}</small>
+                    </p>
+                  ) : (
+                    <p key={index}>{pharagraph.text}</p>
+                  )
+              )
+            ) : (
+              ""
             )}
           </Col>
         </Row>

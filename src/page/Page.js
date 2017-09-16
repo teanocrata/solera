@@ -20,7 +20,7 @@ class Page extends Component {
         />
         <SSection activities={page.activities} />
         <STextSection text={page.text} />
-        <SCarouselSection bodies={page.carouselBodies}/>
+        <SCarouselSection bodies={page.carouselBodies} />
         <STimeline />
         <ScrollUpButton />
       </div>

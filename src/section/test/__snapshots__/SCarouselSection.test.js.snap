@@ -8,19 +8,58 @@ exports[`SCarouselSection renders correctly 1`] = `
 >
   <ol
     className="carousel-indicators"
+  />
+  <div
+    className="carousel-inner"
+  >
+    
+  </div>
+  <a
+    className="carousel-control left"
+    href="#"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+  >
+    <span
+      className="glyphicon glyphicon-chevron-left"
+    />
+    <span
+      className="sr-only"
+    >
+      Previous
+    </span>
+  </a>
+  <a
+    className="carousel-control right"
+    href="#"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+  >
+    <span
+      className="glyphicon glyphicon-chevron-right"
+    />
+    <span
+      className="sr-only"
+    >
+      Next
+    </span>
+  </a>
+</div>
+`;
+
+exports[`SCarouselSection renders correctly with bodies 1`] = `
+<div
+  className="carousel slide"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  <ol
+    className="carousel-indicators"
   >
     <li
       className="active"
-      onClick={[Function]}
-    />
-     
-    <li
-      className={null}
-      onClick={[Function]}
-    />
-     
-    <li
-      className={null}
       onClick={[Function]}
     />
      
@@ -42,7 +81,7 @@ exports[`SCarouselSection renders correctly 1`] = `
       >
         <img
           className="img-circle"
-          src="cheyenne_square.jpg"
+          src="https://drive.google.com/uc?id=0BwBkl30bqN8KQUZselFVQmh3cHM"
           style={
             Object {
               "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
@@ -57,73 +96,7 @@ exports[`SCarouselSection renders correctly 1`] = `
           Cheyenne
         </h3>
         <p>
-          Uno de nuestros caballos estrella, muy flexible, con doma western y clásica. Un excelente saltador aunque cuidado, ¡a veces tiene un carácter...!
-        </p>
-      </div>
-    </div>
-    <div
-      className="item"
-    >
-      <div
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "height": 500,
-            "width": "100%",
-          }
-        }
-      >
-        <img
-          className="img-circle"
-          src="pixie_square.jpg"
-          style={
-            Object {
-              "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
-            }
-          }
-        />
-      </div>
-      <div
-        className="carousel-caption"
-      >
-        <h3>
-          Pixie
-        </h3>
-        <p>
-          Un caballo pequeñito, casi un pony, super noble, tranquilo y adaptándose a todas las situaciones, tanto en pista como en el campo. Muy divertido y juguetón.
-        </p>
-      </div>
-    </div>
-    <div
-      className="item"
-    >
-      <div
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "height": 500,
-            "width": "100%",
-          }
-        }
-      >
-        <img
-          className="img-circle"
-          src="campera_square.jpg"
-          style={
-            Object {
-              "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
-            }
-          }
-        />
-      </div>
-      <div
-        className="carousel-caption"
-      >
-        <h3>
-          Campera
-        </h3>
-        <p>
-          Especialista en rutas por el campo, ¡es enorme!, al principio impone un poco pero es un pedazo de pan. En la pista es espectacular, eso si, tienes que estar bien en forma ;)
+            Uno de nuestros caballos estrella, muy flexible, con doma western y clásica. Un excelente saltador aunque cuidado, ¡a veces tiene un carácter...!
         </p>
       </div>
     </div>

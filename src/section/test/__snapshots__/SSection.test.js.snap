@@ -4,6 +4,14 @@ exports[`SSection renders correctly 1`] = `
 <div
   className="container-fluid"
 >
+  
+</div>
+`;
+
+exports[`SSection renders correctly with activities 1`] = `
+<div
+  className="container-fluid"
+>
   <div
     className="show-grid row"
     style={
@@ -17,7 +25,7 @@ exports[`SSection renders correctly 1`] = `
     >
       <img
         className="img-circle"
-        src="pony_girls_square.jpg"
+        src="https://drive.google.com/uc?id=0BwBkl30bqN8KQnc3U1hRM1o2MWs"
         style={
           Object {
             "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
@@ -36,7 +44,7 @@ exports[`SSection renders correctly 1`] = `
     >
       <img
         className="img-circle"
-        src="farmer_square.jpg"
+        src="https://drive.google.com/uc?id=0BwBkl30bqN8KRXVPX0RMakNiajA"
         style={
           Object {
             "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
@@ -50,24 +58,39 @@ exports[`SSection renders correctly 1`] = `
         Una escuela de equitación tiene muchas actividades, desde hacer las camas, la comida o salir a jugar ¡igual que en casa!
       </p>
     </div>
+  </div>
+</div>
+`;
+
+exports[`SSection renders correctly with only titled activities 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="show-grid row"
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  >
     <div
       className="slideanim col-md-4"
     >
-      <img
-        className="img-circle"
-        src="horse_training_square.jpg"
-        style={
-          Object {
-            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
-          }
-        }
-      />
+      
       <h3>
-        Monta en uno de nuestros ponys
+        Da de comer a los ponys
       </h3>
-      <p>
-        La actividad estrella de nuestra visita, descubre la sensación de conectar con un pony, verás como te conoce, te escucha, y disfrutaréis juntos.
-      </p>
+      <p />
+    </div>
+    <div
+      className="slideanim col-md-4"
+    >
+      
+      <h3>
+        Conoce nuestro día a día
+      </h3>
+      <p />
     </div>
   </div>
 </div>

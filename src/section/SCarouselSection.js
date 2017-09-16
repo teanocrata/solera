@@ -12,23 +12,27 @@ class SCarouselSection extends Component {
     };
     return (
       <Carousel>
-        {this.props.bodies.map(body => (
-          <Carousel.Item>
-            <div
-              style={{
-                height: 500,
-                width: "100%",
-                backgroundColor: "transparent"
-              }}
-            >
-              <Image style={style.image} src={body.image.src} circle />
-            </div>
-            <Carousel.Caption>
-              <h3>{body.title}</h3>
-              <p>{body.text}</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        ))}
+        {this.props.bodies ? (
+          this.props.bodies.map(body => (
+            <Carousel.Item key={body.title}>
+              <div
+                style={{
+                  height: 500,
+                  width: "100%",
+                  backgroundColor: "transparent"
+                }}
+              >
+                <Image style={style.image} src={body.image.src} circle />
+              </div>
+              <Carousel.Caption>
+                <h3>{body.title}</h3>
+                <p>{body.text}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          ))
+        ) : (
+          ""
+        )}
       </Carousel>
     );
   }
