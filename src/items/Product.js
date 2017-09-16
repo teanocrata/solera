@@ -8,15 +8,15 @@ class Product extends Component {
   render() {
     const style = {
       image: {
-        maxWidth: "150px",
-        maxHeight: "150px"
+        maxWidth: "250px",
+        maxHeight: "250px"
       },
       container: {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        padding: "5% 5% 5% 5%"
+        padding: "0 5% 0 5%"
       },
       imageContainer: {
         borderStyle: "solid",
