@@ -11,6 +11,78 @@ exports[`SJumbo renders correctly 1`] = `
   }
 >
   <div>
+    <h1 />
+    <p>
+      <button
+        className="btn btn-lg btn-default"
+        disabled={false}
+        style={
+          Object {
+            "backgroundColor": "lightgreen",
+            "border": "none",
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            "color": "forestgreen",
+            "fontSize": "35px",
+            "fontWeight": "bold",
+            "margin": "25% 0 25% 0",
+            "textTransform": "uppercase",
+          }
+        }
+        type="button"
+      />
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SJumbo renders correctly with call to acction 1`] = `
+<div
+  className="text-center jumbotron"
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "height": undefined,
+    }
+  }
+>
+  <div>
+    <h1 />
+    <p>
+      <button
+        className="btn btn-lg btn-default"
+        disabled={false}
+        style={
+          Object {
+            "backgroundColor": "lightgreen",
+            "border": "none",
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            "color": "forestgreen",
+            "fontSize": "35px",
+            "fontWeight": "bold",
+            "margin": "25% 0 25% 0",
+            "textTransform": "uppercase",
+          }
+        }
+        type="button"
+      >
+        Ven a conocernos
+      </button>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SJumbo renders correctly with call to acction 2`] = `
+<div
+  className="text-center jumbotron"
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "height": undefined,
+    }
+  }
+>
+  <div>
     <h1>
       Visitas guiadas
     </h1>
@@ -34,6 +106,43 @@ exports[`SJumbo renders correctly 1`] = `
       >
         Ven a conocernos
       </button>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SJumbo renders correctly with title 1`] = `
+<div
+  className="text-center jumbotron"
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "height": undefined,
+    }
+  }
+>
+  <div>
+    <h1>
+      Visitas guiadas
+    </h1>
+    <p>
+      <button
+        className="btn btn-lg btn-default"
+        disabled={false}
+        style={
+          Object {
+            "backgroundColor": "lightgreen",
+            "border": "none",
+            "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+            "color": "forestgreen",
+            "fontSize": "35px",
+            "fontWeight": "bold",
+            "margin": "25% 0 25% 0",
+            "textTransform": "uppercase",
+          }
+        }
+        type="button"
+      />
     </p>
   </div>
 </div>

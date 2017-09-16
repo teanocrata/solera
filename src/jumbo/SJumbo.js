@@ -24,10 +24,10 @@ class SJumbo extends Component {
     return (
       <Jumbotron className="text-center" style={style.jumbo}>
         <div>
-          <h1>Visitas guiadas</h1>
+          <h1>{this.props.title}</h1>
           <p>
             <Button style={style.button} bsSize="large">
-              Ven a conocernos
+              {this.props.callToAction}
             </Button>
           </p>
         </div>

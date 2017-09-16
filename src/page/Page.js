@@ -12,7 +12,7 @@ class Page extends Component {
   render() {
     return (
       <div>
-        <SJumbo />
+        <SJumbo title="Visitas guiadas" callToAction="Ven a conocenos" />
         <br />
         <SSection />
         <STextSection />
