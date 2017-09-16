@@ -8,13 +8,17 @@ import SJumbo from "../jumbo/SJumbo";
 import STimeline from "../timeline/STimeline";
 import "./Page.css";
 
+import page from "./page.json";
+
 class Page extends Component {
   render() {
     return (
       <div>
-        <SJumbo title="Visitas guiadas" callToAction="Ven a conocenos" />
-        <br />
-        <SSection />
+        <SJumbo
+          title={page.jumbo.title}
+          callToAction={page.jumbo.callToAction}
+        />
+        <SSection activities={page.activities} />
         <STextSection />
         <SCarouselSection />
         <STimeline />
