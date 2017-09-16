@@ -19,7 +19,7 @@ class Page extends Component {
           callToAction={page.jumbo.callToAction}
         />
         <SSection activities={page.activities} />
-        <STextSection />
+        <STextSection text={page.text} />
         <SCarouselSection />
         <STimeline />
         <ScrollUpButton />

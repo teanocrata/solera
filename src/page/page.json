@@ -28,5 +28,22 @@
         "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KQzQ3VWI3bVlyOEU"
       }
     }
-  ]
+  ],
+  "text": {
+    "title": "Bienvenidos",
+    "pharagraphs": [
+      {
+        "text":
+          "Visita nuestra escuela y disfruta de una agradable sensación de calma y tranquilidad en el campo."
+      },
+      {
+        "text":
+          "Verás cómo viven nuestros caballos, conocerás los diferentes trabajos que hacemos con ellos, las distintas clases de domas y por qué nosotros optamos por la doma natural y muchas más curiosidades.."
+      },
+      {
+        "text": "¡Y podrás probar lo que significa conectar con un animal!",
+        "size": "small"
+      }
+    ]
+  }
 }
