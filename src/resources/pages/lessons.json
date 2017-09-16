@@ -1,28 +1,28 @@
 {
-  "jumbo": { "title": "Visitas guiadas", "callToAction": "Ven a conocenos" },
+  "jumbo": { "title": "Clases de equitación", "callToAction": "Prueba sin compromiso" },
   "activities": [
     {
-      "title": "Da de comer a los ponys",
+      "title": "Conoce a los caballos",
       "text":
-        "Los caballos y los ponys son animales muy sociables, detectan nuestras emociones y son muy curiosos, además ¡les encantan las frutisinas!",
+        "Los caballos son animales muy sociables, detectan nuestras emociones y son muy curiosos, ¡aprende a conocerlos!",
       "image": {
         "name": "ponyGirls",
         "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KQnc3U1hRM1o2MWs"
       }
     },
     {
-      "title": "Conoce nuestro día a día",
+      "title": "Distingue las disciplinas",
       "text":
-        "Una escuela de equitación tiene muchas actividades, desde hacer las camas, la comida o salir a jugar ¡igual que en casa!",
+        "La equitación es muy amplia y abarca muchas disciplinas, doma clásica, salto, voltes, raid, turismo ecuestre, pony games,...",
       "image": {
         "name": "farmer",
         "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KRXVPX0RMakNiajA"
       }
     },
     {
-      "title": "Monta en uno de nuestros ponys",
+      "title": "Disfruta aprendiendo",
       "text":
-        "La actividad estrella de nuestra visita, descubre la sensación de conectar con un pony, verás como te conoce, te escucha, y disfrutaréis juntos.",
+        "Para poder divertirte primero tienes que sentir seguridad, para eso nada mejor que una buena base. Desde el paso aprenderás a controlar todos los aires.",
       "image": {
         "name": "horseTraining",
         "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KQzQ3VWI3bVlyOEU"
@@ -34,14 +34,14 @@
     "pharagraphs": [
       {
         "text":
-          "Visita nuestra escuela y disfruta de una agradable sensación de calma y tranquilidad en el campo."
+          "Visita nuestra escuela y te mostraremos cual es nuestro enfoque."
       },
       {
         "text":
-          "Verás cómo viven nuestros caballos, conocerás los diferentes trabajos que hacemos con ellos, las distintas clases de domas y por qué nosotros optamos por la doma natural y muchas más curiosidades.."
+          "Verás cómo viven nuestros caballos, conocerás los diferentes trabajos que hacemos con ellos, y sobre todo verás cómo son nuestras clases"
       },
       {
-        "text": "¡Y podrás probar lo que significa conectar con un animal!",
+        "text": "Queremos sobre todo que te diviertas ¡podrás probar lo que significa conectar con un animal!",
         "size": "small"
       }
     ]
@@ -78,27 +78,27 @@
       "title": "Llegada a Solera",
       "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KaEduN21QZ3BjZzg"},
       "text":
-        "Nuestra visita empieza con la llegada a la Solera, el centro hípico está situado a unos 15 km de Madrid, en la orilla del río Jarama, un entorno privilegiado que nos permite disfrutar del campo sin apenas alejarnos de Madrid."
+        "Nuestras clases empiezan preparando a los caballos, es el momento de empezar a concentrarse y a conectar con tu caballo, con calma conseguirás que empiece a confiar en tí."
     },
     {
-      "title": "Conoce a nuestros caballos",
+      "title": "Empieza el calentamiento",
       "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KTlpPSW1IYnctSkU"},
-      "text": "Los casi 20 caballos y 4 ponys de Solera se cuidan como si fueran deportistas de élite, a través del seguimiento de una serie de buenas prácticas de la doma natural y alimentándolos con productos propios evitando aditivos artificiales."
+      "text": "Tanto tu caballo como tú teneis que ir preparándoos para la clase, igual que en cualquier deporte u buen calentamiento ayuda a evitar lesiones y a poder disfrutar mejor del entrenamiento."
     },
     {
       "title": "¿Sabes lo que es la doma natural?",
       "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KaEduN21QZ3BjZzg"},
-      "text": "La doma natural intenta plantear la relación hombre-caballo desde ideas como la amistad y la asimilación de las bases del comportamiento del animal en libertad. Una tradición que viene de antiguo y que, hoy en día, se intenta conceptualizar para poder aplicarla en nuestro trabajo con los caballos."
+      "text": "La doma natural intenta plantear la relación hombre-caballo desde ideas como la amistad y la asimilación de las bases del comportamiento del animal en libertad. Tu caballo y tú teneis que se uno, desde coger el asiento hasta los recorridos más complejos dependen de los dos, teneis que aprender a conectar."
     },
     {
       "title": "¡Es la hora de la verdad!",
       "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KVy01VzZkNkhPNk0"},
-      "text": "Montar a caballo es una actividad muy completa, activa todos los grupos musculares y en particular favorece movimientos propioceptivos que previenen lesiones en el día a día. Además el contacto con el animal hace de esta actividad algo incomparable, la conexión entre jinete y caballo hace de este momento algo muy especial, ¿estás preparado?"
+      "text": "Según vayas sintiendote preparad@ pordrás participar en concursos sociales o incluso en competiciones federadas, ¿estás preparado?"
     },
     {
       "title": "Y por fin, un merecido descanso",
       "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KV05GbjJTaTRVWlE"},
-      "text": "En solera disponemos de instalaciones para poder relajarte tras una jornada de entrenamiento, disfruta charlando o tomando algo fresquito. También disponemos de zona de juegos al aire libre para los más pequeños. Si has llegado hasta aquí recibirás un merecido detalle para que recuerdes nos recuerdes con cariño. Esperamos que hayas disfrutado tanto como nosotros de este día tan especial."
+      "text": "Al finalizar cada clase, tu caballo y tú necesitais relajaros y volver a la calma. Después hay que dejar todo el equipo preparado para la siguiente clase y lo mejor, ¡llega el momento de las zanahorias!"
     }
   ]
 }
