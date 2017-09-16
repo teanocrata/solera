@@ -4,7 +4,7 @@ import SNavbar from "./navbar/SNavbar";
 import Page from "./page/Page";
 import logo from "./solera_logo_80x80_green.png";
 
-import page from "./resources/pages/page.json"
+import page from "./resources/pages/page.json";
 
 class App extends Component {
   render() {
@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <div>
         <SNavbar logo={logo} items={items} />
-        <Page page={page}/>
+        <Page page={page} />
       </div>
     );
   }
