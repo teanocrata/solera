@@ -4,7 +4,7 @@ import "./STextSection.css";
 
 class STextSection extends Component {
   render() {
-    return (
+    return this.props.text ? (
       <Grid fluid>
         <Row
           className="show-grid"
@@ -13,9 +13,9 @@ class STextSection extends Component {
           }}
         >
           <Col md={12} className="slideanim">
-            <h2>{this.props.text ? this.props.text.title : ""}</h2>
+            <h2>{this.props.text.title}</h2>
             <br />
-            {this.props.text && this.props.text.pharagraphs ? (
+            {this.props.text.pharagraphs ? (
               this.props.text.pharagraphs.map(
                 (pharagraph, index) =>
                   pharagraph.size === "small" ? (
@@ -32,7 +32,7 @@ class STextSection extends Component {
           </Col>
         </Row>
       </Grid>
-    );
+    ) : null;
   }
 }
 

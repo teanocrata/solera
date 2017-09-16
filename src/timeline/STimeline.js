@@ -6,24 +6,20 @@ import Event from "./Event";
 
 class STimeline extends Component {
   render() {
-    return (
+    return this.props.events ? (
       <StyleRoot>
         <Timeline activeColor="lightgreen">
-          {this.props.events ? (
-            this.props.events.map(event => (
-              <Event
-                key={event.title}
-                title={event.title}
-                img={event.image.src}
-                description={event.text}
-              />
-            ))
-          ) : (
-            <Event />
-          )}
+          {this.props.events.map(event => (
+            <Event
+              key={event.title}
+              title={event.title}
+              img={event.image.src}
+              description={event.text}
+            />
+          ))}
         </Timeline>
       </StyleRoot>
-    );
+    ) : null;
   }
 }
 

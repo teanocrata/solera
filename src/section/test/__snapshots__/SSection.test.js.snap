@@ -1,12 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SSection renders correctly 1`] = `
-<div
-  className="container-fluid"
->
-  
-</div>
-`;
+exports[`SSection renders correctly 1`] = `null`;
 
 exports[`SSection renders correctly with activities 1`] = `
 <div

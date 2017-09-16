@@ -8,23 +8,18 @@ import SJumbo from "../jumbo/SJumbo";
 import STimeline from "../timeline/STimeline";
 import "./Page.css";
 
-import page from "./page.json";
-
 class Page extends Component {
   render() {
-    return (
+    return this.props.page ? (
       <div>
-        <SJumbo
-          title={page.jumbo.title}
-          callToAction={page.jumbo.callToAction}
-        />
-        <SSection activities={page.activities} />
-        <STextSection text={page.text} />
-        <SCarouselSection bodies={page.carouselBodies} />
-        <STimeline events={page.events} />
+        <SJumbo jumbo={this.props.page.jumbo} />
+        <SSection activities={this.props.page.activities} />
+        <STextSection text={this.props.page.text} />
+        <SCarouselSection bodies={this.props.page.carouselBodies} />
+        <STimeline events={this.props.page.events} />
         <ScrollUpButton />
       </div>
-    );
+    ) : null;
   }
 }
 

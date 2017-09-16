@@ -13,21 +13,27 @@ test("SJumbo renders correctly", () => {
   expect(jumbo).toMatchSnapshot();
 });
 
+test("SJumbo renders correctly with jumbo data", () => {
+  const jumboData = {
+    title: "Visitas guiadas",
+    callToAction: "Ven a conocenos"
+  };
+  const jumbo = renderer.create(<SJumbo jumbo={jumboData} />).toJSON();
+  expect(jumbo).toMatchSnapshot();
+});
+
+test("SJumbo renders correctly with call to acction", () => {
+  const jumboData = {
+    callToAction: "Ven a conocenos"
+  };
+  const jumbo = renderer.create(<SJumbo jumbo={jumboData} />).toJSON();
+  expect(jumbo).toMatchSnapshot();
+});
+
 test("SJumbo renders correctly with title", () => {
-  const jumbo = renderer.create(<SJumbo title="Visitas guiadas" />).toJSON();
-  expect(jumbo).toMatchSnapshot();
-});
-
-test("SJumbo renders correctly with call to acction", () => {
-  const jumbo = renderer
-    .create(<SJumbo callToAction="Ven a conocernos" />)
-    .toJSON();
-  expect(jumbo).toMatchSnapshot();
-});
-
-test("SJumbo renders correctly with call to acction", () => {
-  const jumbo = renderer
-    .create(<SJumbo title="Visitas guiadas" callToAction="Ven a conocernos" />)
-    .toJSON();
+  const jumboData = {
+    title: "Visitas guiadas"
+  };
+  const jumbo = renderer.create(<SJumbo jumbo={jumboData} />).toJSON();
   expect(jumbo).toMatchSnapshot();
 });

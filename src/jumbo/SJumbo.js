@@ -21,18 +21,20 @@ class SJumbo extends Component {
         fontSize: "35px"
       }
     };
-    return (
+    return this.props.jumbo ? (
       <Jumbotron className="text-center" style={style.jumbo}>
         <div>
-          <h1>{this.props.title}</h1>
-          <p>
-            <Button style={style.button} bsSize="large">
-              {this.props.callToAction}
-            </Button>
-          </p>
+          <h1>{this.props.jumbo.title}</h1>
+          {this.props.jumbo.callToAction ? (
+            <p>
+              <Button style={style.button} bsSize="large">
+                {this.props.jumbo.callToAction}
+              </Button>
+            </p>
+          ) : null}
         </div>
       </Jumbotron>
-    );
+    ) : null;
   }
 }
 

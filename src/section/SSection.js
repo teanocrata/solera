@@ -9,9 +9,9 @@ class SSection extends Component {
         boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"
       }
     };
-    return (
+    return this.props.activities ? (
       <Grid fluid>
-        {this.props.activities ? (
+        {
           <Row
             className="show-grid"
             style={{
@@ -30,11 +30,9 @@ class SSection extends Component {
               </Col>
             ))}
           </Row>
-        ) : (
-          ""
-        )}
+        }
       </Grid>
-    );
+    ) : null;
   }
 }
 
