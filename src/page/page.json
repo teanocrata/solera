@@ -45,5 +45,29 @@
         "size": "small"
       }
     ]
-  }
+  },
+  "carouselBodies": [
+    {
+      "title": "Cheyenne",
+      "image": {
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KQUZselFVQmh3cHM"
+      },
+      "text":
+        "  Uno de nuestros caballos estrella, muy flexible, con doma western y clásica. Un excelente saltador aunque cuidado, ¡a veces tiene un carácter...!"
+    },
+    {
+      "title": "Campera",
+      "image": {
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KR0NKWU5hQ3BnN00"
+      },
+      "text": "Especialista en rutas por el campo, ¡es enorme!, al principio impone un poco pero es un pedazo de pan. En la pista es espectacular, eso si, tienes que estar bien en forma ;)"
+    },
+    {
+      "title": "Pixie",
+      "image": {
+        "src": "Un caballo pequeñito, casi un pony, super noble, tranquilo y adaptándose a todas las situaciones, tanto en pista como en el campo. Muy divertido y juguetón."
+      },
+      "text": "Especialista en rutas por el campo, ¡es enorme!, al principio impone un poco pero es un pedazo de pan. En la pista es espectacular, eso si, tienes que estar bien en forma ;)"
+    }
+  ]
 }
