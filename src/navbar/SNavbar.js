@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Navbar, Nav, NavItem } from "react-bootstrap";
 import "./SNavbar.css";
 
 class SNavbar extends Component {
@@ -9,44 +11,22 @@ class SNavbar extends Component {
       <Navbar inverse collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/">
+            <Link to="/">
               <img className="Nav-logo" src={this.props.logo} alt="Logo" />
-            </a>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          {this.props.items ? (
+          {this.props.routes ? (
             <Nav pullRight>
-              {this.props.items.map(
-                item =>
-                  item.link ? (
-                    <NavItem key={item.text} eventKey={1} href={item.link}>
-                      {item.text}
-                    </NavItem>
-                  ) : (
-                    <NavDropdown
-                      eventKey={3}
-                      key={item.text}
-                      title={item.text}
-                      id="basic-nav-dropdown"
-                    >
-                      {item.items.map(innerItem => (
-                        <MenuItem
-                          key={innerItem.text}
-                          eventKey={1}
-                          href={innerItem.link}
-                        >
-                          {innerItem.text}
-                        </MenuItem>
-                      ))}
-                    </NavDropdown>
-                  )
-              )}
+              {this.props.routes.map(item => (
+                <LinkContainer key={item.text} to={item.path}>
+                  <NavItem>{item.text}</NavItem>
+                </LinkContainer>
+              ))}
             </Nav>
-          ) : (
-            ""
-          )}
+          ) : null}
         </Navbar.Collapse>
       </Navbar>
     );

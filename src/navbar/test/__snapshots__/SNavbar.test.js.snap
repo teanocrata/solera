@@ -13,6 +13,7 @@ exports[`SNavbar renders correctly 1`] = `
       <a
         className="navbar-brand"
         href="/"
+        onClick={[Function]}
       >
         <img
           alt="Logo"
@@ -44,9 +45,7 @@ exports[`SNavbar renders correctly 1`] = `
     <div
       aria-expanded={null}
       className="navbar-collapse collapse"
-    >
-      
-    </div>
+    />
   </div>
 </nav>
 `;
@@ -64,6 +63,7 @@ exports[`SNavbar renders correctly with logo 1`] = `
       <a
         className="navbar-brand"
         href="/"
+        onClick={[Function]}
       >
         <img
           alt="Logo"
@@ -95,9 +95,7 @@ exports[`SNavbar renders correctly with logo 1`] = `
     <div
       aria-expanded={null}
       className="navbar-collapse collapse"
-    >
-      
-    </div>
+    />
   </div>
 </nav>
 `;
@@ -115,6 +113,7 @@ exports[`SNavbar renders correctly with logo and no items 1`] = `
       <a
         className="navbar-brand"
         href="/"
+        onClick={[Function]}
       >
         <img
           alt="Logo"
@@ -146,12 +145,7 @@ exports[`SNavbar renders correctly with logo and no items 1`] = `
     <div
       aria-expanded={null}
       className="navbar-collapse collapse"
-    >
-      <ul
-        className="nav navbar-nav navbar-right"
-        role={null}
-      />
-    </div>
+    />
   </div>
 </nav>
 `;
@@ -169,6 +163,7 @@ exports[`SNavbar renders correctly with logo and valid items 1`] = `
       <a
         className="navbar-brand"
         href="/"
+        onClick={[Function]}
       >
         <img
           alt="Logo"
@@ -200,39 +195,7 @@ exports[`SNavbar renders correctly with logo and valid items 1`] = `
     <div
       aria-expanded={null}
       className="navbar-collapse collapse"
-    >
-      <ul
-        className="nav navbar-nav navbar-right"
-        role={null}
-      >
-        <li
-          className=""
-          role="presentation"
-          style={undefined}
-        >
-          <a
-            href="https://www.clasesdeequitacionmadrid.com/instalaciones-hipica"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          >
-            Instalaciones
-          </a>
-        </li>
-        <li
-          className=""
-          role="presentation"
-          style={undefined}
-        >
-          <a
-            href="https://www.clasesdeequitacionmadrid.com/clases-de-equitacion"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          >
-            Clases
-          </a>
-        </li>
-      </ul>
-    </div>
+    />
   </div>
 </nav>
 `;
@@ -250,6 +213,7 @@ exports[`SNavbar renders correctly with logo and valid nested item 1`] = `
       <a
         className="navbar-brand"
         href="/"
+        onClick={[Function]}
       >
         <img
           alt="Logo"
@@ -281,83 +245,7 @@ exports[`SNavbar renders correctly with logo and valid nested item 1`] = `
     <div
       aria-expanded={null}
       className="navbar-collapse collapse"
-    >
-      <ul
-        className="nav navbar-nav navbar-right"
-        role={null}
-      >
-        <li
-          className="dropdown"
-          style={undefined}
-        >
-          <a
-            aria-expanded={false}
-            aria-haspopup={true}
-            className="dropdown-toggle"
-            href="#"
-            id="basic-nav-dropdown"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            role="button"
-          >
-            Actividades
-             
-            <span
-              className="caret"
-            />
-          </a>
-          <ul
-            aria-labelledby="basic-nav-dropdown"
-            className="dropdown-menu"
-            role="menu"
-          >
-            <li
-              className=""
-              role="presentation"
-              style={undefined}
-            >
-              <a
-                href="https://www.clasesdeequitacionmadrid.com/cumpleanos-con-caballos"
-                onClick={[Function]}
-                onKeyDown={[Function]}
-                role="menuitem"
-                tabIndex="-1"
-              >
-                Cumpleaños
-              </a>
-            </li>
-            <li
-              className=""
-              role="presentation"
-              style={undefined}
-            >
-              <a
-                href="https://www.clasesdeequitacionmadrid.com/campamento-hipico"
-                onClick={[Function]}
-                onKeyDown={[Function]}
-                role="menuitem"
-                tabIndex="-1"
-              >
-                Campamentos
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li
-          className=""
-          role="presentation"
-          style={undefined}
-        >
-          <a
-            href="https://www.clasesdeequitacionmadrid.com/blog"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          >
-            Blog
-          </a>
-        </li>
-      </ul>
-    </div>
+    />
   </div>
 </nav>
 `;

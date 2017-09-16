@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import "./App.css";
 import SNavbar from "./navbar/SNavbar";
 import Page from "./page/Page";
@@ -8,43 +10,27 @@ import page from "./resources/pages/page.json";
 
 class App extends Component {
   render() {
-    const items = [
+    const routes = [
       {
-        link: "https://www.clasesdeequitacionmadrid.com/instalaciones-hipica",
-        text: "Instalaciones"
-      },
-      {
-        link: "https://www.clasesdeequitacionmadrid.com/clases-de-equitacion",
-        text: "Clases"
-      },
-      {
-        link: "https://www.clasesdeequitacionmadrid.com/pupilaje",
-        text: "Pupilaje"
-      },
-      {
-        items: [
-          {
-            link:
-              "https://www.clasesdeequitacionmadrid.com/cumpleanos-con-caballos",
-            text: "Cumpleaños"
-          },
-          {
-            link: "https://www.clasesdeequitacionmadrid.com/campamento-hipico",
-            text: "Campamentos"
-          }
-        ],
-        text: "Actividades"
-      },
-      {
-        link: "https://www.clasesdeequitacionmadrid.com/blog",
-        text: "Blog"
+        path: "/",
+        main: () => <Page page={page} />,
+        text: "Home"
       }
     ];
     return (
-      <div>
-        <SNavbar logo={logo} items={items} />
-        <Page page={page} />
-      </div>
+      <Router>
+        <div>
+          <SNavbar logo={logo} routes={routes} />
+          {routes.map((route, index) => (
+            <Route
+              key={index}
+              path={route.path}
+              exact={route.exact}
+              component={route.main}
+            />
+          ))}
+        </div>
+      </Router>
     );
   }
 }

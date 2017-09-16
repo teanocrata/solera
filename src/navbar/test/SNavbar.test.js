@@ -3,25 +3,49 @@ import ReactDOM from "react-dom";
 import renderer from "react-test-renderer";
 import SNavbar from "../SNavbar";
 import logo from "./logo.svg";
+import { MemoryRouter } from "react-router-dom";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<SNavbar />, div);
+  ReactDOM.render(
+    <MemoryRouter>
+      <SNavbar />
+    </MemoryRouter>,
+    div
+  );
 });
 
 test("SNavbar renders correctly", () => {
-  const app = renderer.create(<SNavbar />).toJSON();
+  const app = renderer
+    .create(
+      <MemoryRouter>
+        <SNavbar />
+      </MemoryRouter>
+    )
+    .toJSON();
   expect(app).toMatchSnapshot();
 });
 
 test("SNavbar renders correctly with logo", () => {
-  const app = renderer.create(<SNavbar logo={logo} />).toJSON();
+  const app = renderer
+    .create(
+      <MemoryRouter>
+        <SNavbar logo={logo} />
+      </MemoryRouter>
+    )
+    .toJSON();
   expect(app).toMatchSnapshot();
 });
 
 test("SNavbar renders correctly with logo and no items", () => {
   const items = [];
-  const app = renderer.create(<SNavbar logo={logo} items={items} />).toJSON();
+  const app = renderer
+    .create(
+      <MemoryRouter>
+        <SNavbar logo={logo} items={items} />
+      </MemoryRouter>
+    )
+    .toJSON();
   expect(app).toMatchSnapshot();
 });
 
@@ -36,7 +60,13 @@ test("SNavbar renders correctly with logo and valid items", () => {
       text: "Clases"
     }
   ];
-  const app = renderer.create(<SNavbar logo={logo} items={items} />).toJSON();
+  const app = renderer
+    .create(
+      <MemoryRouter>
+        <SNavbar logo={logo} items={items} />
+      </MemoryRouter>
+    )
+    .toJSON();
   expect(app).toMatchSnapshot();
 });
 
@@ -61,6 +91,12 @@ test("SNavbar renders correctly with logo and valid nested item", () => {
       text: "Blog"
     }
   ];
-  const app = renderer.create(<SNavbar logo={logo} items={items} />).toJSON();
+  const app = renderer
+    .create(
+      <MemoryRouter>
+        <SNavbar logo={logo} items={items} />
+      </MemoryRouter>
+    )
+    .toJSON();
   expect(app).toMatchSnapshot();
 });
