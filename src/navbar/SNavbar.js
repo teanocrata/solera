@@ -21,8 +21,8 @@ class SNavbar extends Component {
           {this.props.routes ? (
             <Nav pullRight>
               {this.props.routes.map(item => (
-                <LinkContainer key={item.text} to={item.path}>
-                  <NavItem>{item.text}</NavItem>
+                <LinkContainer key={item.name} to={item.path}>
+                  <NavItem>{item.name}</NavItem>
                 </LinkContainer>
               ))}
             </Nav>

@@ -11,62 +11,60 @@ import meetUs from "./resources/pages/guidedVisits.json";
 import lessons from "./resources/pages/lessons.json";
 import page from "./resources/pages/page.json";
 
-const products = [
-  {
-    image: {
-      src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
-    },
-    name: "Clases",
-    path: "/lessons"
-  },
-  {
-    image: {
-      src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
-    },
-    name: "Ponies",
-    path: "/ponies"
-  }
-];
-
 class App extends Component {
   render() {
-    const routes = [
+    const products = [
       {
         path: "/guidedVisits",
         main: () => <Page page={meetUs} />,
-        text: "¡Conócenos!"
+        name: "¡Conócenos!",
+        image: {
+          src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
+        }
       },
       {
         path: "/lessons",
         main: () => <Page page={lessons} />,
-        text: "Clases"
+        name: "Clases",
+        image: {
+          src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
+        }
       },
       {
         path: "/ponies",
         main: () => <Page page={page} />,
-        text: "Ponies"
+        name: "Ponies",
+        image: {
+          src: "https://drive.google.com/uc?id=0BwBkl30bqN8KWkUwTXBhQ0FtWG8"
+        }
       },
       {
         path: "/birthdays",
         main: () => <Page page={page} />,
-        text: "Cumpleaños"
+        name: "Cumpleaños",
+        image: {
+          src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
+        }
       },
       {
         path: "/stabling",
         main: () => <Page page={page} />,
-        text: "Pupilaje"
+        name: "Pupilaje",
+        image: {
+          src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
+        }
       }
     ];
     return (
       <Router>
         <div>
-          <SNavbar logo={logo} routes={routes} />
+          <SNavbar logo={logo} routes={products} />
           <Route
             exact={true}
             path="/"
             component={() => <HomePage products={products} />}
           />
-          {routes.map((route, index) => (
+          {products.map((route, index) => (
             <Route
               key={index}
               path={route.path}

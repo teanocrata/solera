@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 
 import Product from "../items/Product";
+import "./HomePage.css";
 
 class HomePage extends Component {
   render() {
     const style = {
       page: {
-        paddingTop: "40px",
-        width: "100vw",
-        height: "100vh",
+        paddingTop: "50px",
+        // width: "100vw",
+        // height: "100vh",
         display: "flex",
         justifyContent: "center",
         flexWrap: "wrap",
@@ -17,7 +18,7 @@ class HomePage extends Component {
     };
 
     return (
-      <div style={style.page}>
+      <div className="circle-container" style={style.page}>
         {this.props.products ? (
           this.props.products.map(product => (
             <Product key={product.name} product={product} />

@@ -1,0 +1,43 @@
+.circle-container {
+  position: relative;
+  width: 40em;
+  height: 40em;
+  border-radius: 50%;
+  list-style: none;
+  margin: 0 auto 0;
+  border: solid 1px lightgreen;
+}
+.circle-container > * {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6em;
+  height: 6em;
+  margin: -3em;
+}
+.circle-container > *:nth-of-type(1) {
+  transform: rotate(0deg) translate(20em) rotate(0deg);
+}
+.circle-container > *:nth-of-type(2) {
+  transform: rotate(45deg) translate(20em) rotate(-45deg);
+}
+.circle-container > *:nth-of-type(3) {
+  transform: rotate(90deg) translate(20em) rotate(-90deg);
+}
+.circle-container > *:nth-of-type(4) {
+  transform: rotate(135deg) translate(20em) rotate(-135deg);
+}
+.circle-container > *:nth-of-type(5) {
+  transform: rotate(180deg) translate(20em) rotate(-180deg);
+}
+
+.circle-container img {
+  display: block;
+  max-width: 100%;
+  transition: 0.15s;
+}
+.circle-container img:hover,
+.circle-container img:active {
+  filter: grayscale(0);
+}

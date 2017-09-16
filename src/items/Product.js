@@ -8,8 +8,8 @@ class Product extends Component {
   render() {
     const style = {
       image: {
-        maxWidth: "250px",
-        maxHeight: "250px"
+        maxWidth: "150px",
+        maxHeight: "150px"
       },
       container: {
         display: "flex",
@@ -34,13 +34,17 @@ class Product extends Component {
       }
     };
     return this.props.product ? (
-      <Link className="product" style={style.container} to={this.props.product.path}>
+      <Link
+        className="product"
+        style={style.container}
+        to={this.props.product.path}
+      >
         {this.props.product.image ? (
           <div style={style.imageContainer}>
             <Image style={style.image} src={this.props.product.image.src} />
           </div>
         ) : null}
-        <h2 style={style.text}>{this.props.product.name}</h2>
+        <h3 style={style.text}>{this.props.product.name}</h3>
       </Link>
     ) : null;
   }
