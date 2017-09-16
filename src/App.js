@@ -4,11 +4,29 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import SNavbar from "./navbar/SNavbar";
 import Page from "./page/Page";
+import HomePage from "./page/HomePage";
 import logo from "./solera_logo_80x80_green.png";
 
 import meetUs from "./resources/pages/guidedVisits.json";
 import lessons from "./resources/pages/lessons.json";
 import page from "./resources/pages/page.json";
+
+const products = [
+  {
+    image: {
+      src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
+    },
+    name: "Clases",
+    path: "/lessons"
+  },
+  {
+    image: {
+      src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
+    },
+    name: "Ponies",
+    path: "/ponies"
+  }
+];
 
 class App extends Component {
   render() {
@@ -43,6 +61,11 @@ class App extends Component {
       <Router>
         <div>
           <SNavbar logo={logo} routes={routes} />
+          <Route
+            exact={true}
+            path="/"
+            component={() => <HomePage products={products} />}
+          />
           {routes.map((route, index) => (
             <Route
               key={index}

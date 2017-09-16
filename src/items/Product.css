@@ -1,0 +1,4 @@
+.product:hover, .product:focus {
+  text-decoration: none;
+  opacity: 0.8;
+}
