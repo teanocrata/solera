@@ -21,7 +21,7 @@ class Page extends Component {
         <SSection activities={page.activities} />
         <STextSection text={page.text} />
         <SCarouselSection bodies={page.carouselBodies} />
-        <STimeline />
+        <STimeline events={page.events} />
         <ScrollUpButton />
       </div>
     );
