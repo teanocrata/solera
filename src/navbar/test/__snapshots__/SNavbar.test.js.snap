@@ -17,7 +17,163 @@ exports[`SNavbar renders correctly 1`] = `
         <img
           alt="Logo"
           className="Nav-logo"
-          src="solera_logo_80x80_green.png"
+          src={undefined}
+        />
+      </a>
+      <button
+        className="navbar-toggle collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="sr-only"
+        >
+          Toggle navigation
+        </span>
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+      </button>
+    </div>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+    >
+      
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`SNavbar renders correctly with logo 1`] = `
+<nav
+  className="navbar navbar-inverse navbar-fixed-top"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="Logo"
+          className="Nav-logo"
+          src="logo.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggle collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="sr-only"
+        >
+          Toggle navigation
+        </span>
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+      </button>
+    </div>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+    >
+      
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`SNavbar renders correctly with logo and no items 1`] = `
+<nav
+  className="navbar navbar-inverse navbar-fixed-top"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="Logo"
+          className="Nav-logo"
+          src="logo.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggle collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="sr-only"
+        >
+          Toggle navigation
+        </span>
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+      </button>
+    </div>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+    >
+      <ul
+        className="nav navbar-nav navbar-right"
+        role={null}
+      />
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`SNavbar renders correctly with logo and valid items 1`] = `
+<nav
+  className="navbar navbar-inverse navbar-fixed-top"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="Logo"
+          className="Nav-logo"
+          src="logo.svg"
         />
       </a>
       <button
@@ -75,19 +231,61 @@ exports[`SNavbar renders correctly 1`] = `
             Clases
           </a>
         </li>
-        <li
-          className=""
-          role="presentation"
-          style={undefined}
+      </ul>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`SNavbar renders correctly with logo and valid nested item 1`] = `
+<nav
+  className="navbar navbar-inverse navbar-fixed-top"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="Logo"
+          className="Nav-logo"
+          src="logo.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggle collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="sr-only"
         >
-          <a
-            href="https://www.clasesdeequitacionmadrid.com/pupilaje"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-          >
-            Pupilaje
-          </a>
-        </li>
+          Toggle navigation
+        </span>
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+        <span
+          className="icon-bar"
+        />
+      </button>
+    </div>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+    >
+      <ul
+        className="nav navbar-nav navbar-right"
+        role={null}
+      >
         <li
           className="dropdown"
           style={undefined}
@@ -119,12 +317,11 @@ exports[`SNavbar renders correctly 1`] = `
               style={undefined}
             >
               <a
-                href="#"
+                href="https://www.clasesdeequitacionmadrid.com/cumpleanos-con-caballos"
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 role="menuitem"
                 tabIndex="-1"
-                xlinkHref="https://www.clasesdeequitacionmadrid.com/cumpleanos-con-caballos"
               >
                 Cumpleaños
               </a>
@@ -135,12 +332,11 @@ exports[`SNavbar renders correctly 1`] = `
               style={undefined}
             >
               <a
-                href="#"
+                href="https://www.clasesdeequitacionmadrid.com/campamento-hipico"
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 role="menuitem"
                 tabIndex="-1"
-                xlinkHref="https://www.clasesdeequitacionmadrid.com/cumpleanos-con-caballos"
               >
                 Campamentos
               </a>

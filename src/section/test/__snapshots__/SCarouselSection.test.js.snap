@@ -45,7 +45,7 @@ exports[`SCarouselSection renders correctly 1`] = `
           src="cheyenne_square.jpg"
           style={
             Object {
-              "box-shadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+              "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
             }
           }
         />
@@ -78,7 +78,7 @@ exports[`SCarouselSection renders correctly 1`] = `
           src="pixie_square.jpg"
           style={
             Object {
-              "box-shadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+              "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
             }
           }
         />
@@ -111,7 +111,7 @@ exports[`SCarouselSection renders correctly 1`] = `
           src="campera_square.jpg"
           style={
             Object {
-              "box-shadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
+              "boxShadow": "0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)",
             }
           }
         />
