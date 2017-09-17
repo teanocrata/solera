@@ -1,0 +1,109 @@
+{
+  "jumbo": { "title": "Juegos con ponies", "callToAction": "Ven a conocerlos" },
+  "activities": [
+    {
+      "title": "Conoce a los ponies",
+      "text":
+        "Los ponies son animales muy sociables, detectan nuestras emociones y son muy curiosos, ¡aprende a conocerlos!",
+      "image": {
+        "name": "ponyGirls",
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KQnc3U1hRM1o2MWs"
+      }
+    },
+    {
+      "title": "Disfruta de la escuela",
+      "text":
+        "En la escuela hacemos muchas cosas y hay muchos más habitantes, gallinas, ovejas, cabras ¡y muchos bichitos! Ven a conocerlos.",
+      "image": {
+        "name": "farmer",
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KbTFNRDZERXdpRzg"
+      }
+    },
+    {
+      "title": "Los pony games",
+      "text":
+        "Los pony games son una disciplina de equitación pero !super divertida!. Si quieres podrás aprender con tu hijo, verás que divertido.",
+      "image": {
+        "name": "horseTraining",
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KU3hkRzA4VjhORHc"
+      }
+    }
+  ],
+  "text": {
+    "title": "Bienvenidos",
+    "pharagraphs": [
+      {
+        "text":
+          "En la escuela tenemos actividades para todas las edades, pero tenemos que reconocer que esta es de las más divertidas."
+      },
+      {
+        "text":
+          "Nuestros ponies son muy cariñosos y ver cómo los niños disfrutan y aprenden con ellos es una de las cosas que más nos llena."
+      }
+    ]
+  },
+  "carouselBodies": [
+    {
+      "title": "Muñeca",
+      "image": {
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KbVFYeDYxb3E4MDQ"
+      },
+      "text":
+        "Es muy coqueta, tiene las crines largas así que le encanta tenerlas bien cepilladas y colocadas y es ¡muy mimosa!"
+    },
+    {
+      "title": "Pocoyo",
+      "image": {
+        "src": "https://drive.google.com/uc?id=0BwBkl30bqN8KaG1QWV9BMmxlTzQ"
+      },
+      "text":
+        "Es el más chiquitito y tranquilo de todos, le encantan las cosas sin prisas, desde el cepillado hasta la comida, ¡él va con calma!"
+    },
+    {
+      "title": "Lluvia",
+      "image": {
+        "src":
+          "https://drive.google.com/uc?id=0BwBkl30bqN8KUWU1YThna2NSR1U"
+      },
+      "text":
+        "La más grande, fuerte y rápida, nuestra campeona para jinetes y amazonas más avanzados."
+    },
+    {
+      "title": "Bombón",
+      "image": {
+        "src":
+          "https://drive.google.com/uc?id=0BwBkl30bqN8KME5wbS1BaURtbkk"
+      },
+      "text":
+        "El mejor amigo de Pocoyó, son inseparables. les encanta ir a clase juntos, jugar juntos, mancharse juntos, todo menos comer juntos."
+    }
+  ],
+  "events": [
+    {
+      "title": "Llegada a Solera",
+      "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KaEduN21QZ3BjZzg"},
+      "text":
+        "Nuestras clases empiezan yendo a por los ponies, verás cómo se acercan a recibirnos. Lo primero: aprender cómo tenemos que llevarlos."
+    },
+    {
+      "title": "Empieza el calentamiento",
+      "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KTlpPSW1IYnctSkU"},
+      "text": "Tanto tu caballo como tú teneis que ir preparándoos para la clase, igual que en cualquier deporte u buen calentamiento ayuda a evitar lesiones y a poder disfrutar mejor del entrenamiento."
+    },
+    {
+      "title": "¿Sabes lo que es la doma natural?",
+      "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KaEduN21QZ3BjZzg"},
+      "text": "La doma natural intenta plantear la relación hombre-caballo desde ideas como la amistad y la asimilación de las bases del comportamiento del animal en libertad. Tu caballo y tú teneis que se uno, desde coger el asiento hasta los recorridos más complejos dependen de los dos, teneis que aprender a conectar."
+    },
+    {
+      "title": "¡Es la hora de la verdad!",
+      "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KVy01VzZkNkhPNk0"},
+      "text": "Según vayas sintiendote preparad@ pordrás participar en concursos sociales o incluso en competiciones federadas, ¿estás preparado?"
+    },
+    {
+      "title": "Y por fin, un merecido descanso",
+      "image": {"src": "https://drive.google.com/uc?id=0BwBkl30bqN8KV05GbjJTaTRVWlE"},
+      "text": "Al finalizar cada clase, tu caballo y tú necesitais relajaros y volver a la calma. Después hay que dejar todo el equipo preparado para la siguiente clase y lo mejor, ¡llega el momento de las zanahorias!"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import logo from "./solera_logo_80x80_green.png";
 
 import meetUs from "./resources/pages/guidedVisits.json";
 import lessons from "./resources/pages/lessons.json";
+import ponies from "./resources/pages/ponies.json";
 import page from "./resources/pages/page.json";
 
 class App extends Component {
@@ -32,7 +33,7 @@ class App extends Component {
       },
       {
         path: "/ponies",
-        main: () => <Page page={page} />,
+        main: () => <Page page={ponies} />,
         name: "Ponies",
         image: {
           src: "https://drive.google.com/uc?id=0BwBkl30bqN8KWkUwTXBhQ0FtWG8"
