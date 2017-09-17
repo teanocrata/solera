@@ -11,7 +11,7 @@ import meetUs from "./resources/pages/guidedVisits.json";
 import lessons from "./resources/pages/lessons.json";
 import ponies from "./resources/pages/ponies.json";
 import birthdays from "./resources/pages/birthdays.json";
-import page from "./resources/pages/page.json";
+import stabling from "./resources/pages/stabling.json";
 
 class App extends Component {
   render() {
@@ -50,7 +50,7 @@ class App extends Component {
       },
       {
         path: "/stabling",
-        main: () => <Page page={page} />,
+        main: () => <Page page={stabling} />,
         name: "Pupilaje",
         image: {
           src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
