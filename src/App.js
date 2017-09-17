@@ -58,7 +58,7 @@ class App extends Component {
       }
     ];
     return (
-      <Router>
+      <Router basename="/solera">
         <div>
           <SNavbar logo={logo} routes={products} />
           <Route
