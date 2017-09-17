@@ -10,6 +10,7 @@ import logo from "./solera_logo_80x80_green.png";
 import meetUs from "./resources/pages/guidedVisits.json";
 import lessons from "./resources/pages/lessons.json";
 import ponies from "./resources/pages/ponies.json";
+import birthdays from "./resources/pages/birthdays.json";
 import page from "./resources/pages/page.json";
 
 class App extends Component {
@@ -41,7 +42,7 @@ class App extends Component {
       },
       {
         path: "/birthdays",
-        main: () => <Page page={page} />,
+        main: () => <Page page={birthdays} />,
         name: "Cumpleaños",
         image: {
           src: "https://drive.google.com/uc?id=0BwBkl30bqN8KTm0wbmhfLXBJQ3M"
